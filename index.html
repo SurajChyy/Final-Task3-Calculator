@@ -1,0 +1,30 @@
+<!-- Implement a simple calculator web application that takes two numbers and an operator ( ,-,/,* and %)from an HTML page and returns the result page with the operation performed on the operands. -->
+<html>
+	<head>
+		<title> Calculator</title>
+	</head>
+	<body>
+		<h2 style="font-family: bold; text-align: center;"> A Simple Calculator</h2> <hr>
+		<form method="post" action="connect.php">
+			<table align="center">
+				<tr>
+					<td style="font-size:20px">Enter First Number :  </td>
+					<td><input type="text" name="fnum"></input>  </td>
+				</tr>
+				<tr>
+					<td style="font-size:20px">Enter Second Number :  </td>
+					<td><input type="text" name="snum"></input>   </td>
+				</tr>
+				<tr>  <td>  <br/>  </td> </tr>
+				<tr>
+					<td colspan=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="submit" name="op" value="+"></input> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="submit" name="op" value="-"></input> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="submit" name="op" value="*"></input> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="submit" name="op" value="/"></input> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="submit" name="op" value="%"></input>  </td>
+					</tr>
+				</table>
+			</form>
+		</body>
+	</html>
